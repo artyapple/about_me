@@ -1,0 +1,180 @@
+baseURL: "/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: Artur Iablokov #empty
+paginate: 5
+theme: PaperMod
+#uglyURLs: true
+#relativeURLs: true
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "eng"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: About
+                  url: about/  
+                  weight: 10
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: hello
+    description: Artur Iablokov - Software Developer based in Hamburg
+    author: artyapple
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: dark
+    disableThemeToggle: false
+    #ShowShareButtons: true
+    #ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowToc: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    profileMode:
+        enabled: true
+        title: Artur Iablokov
+        imageUrl: "img/img1.jpg"
+        imageTitle: logo image
+        imageWidth: 180
+        imageHeight: 180
+        subtitle: |
+              Software Developer based in Hamburg, Germany
+              
+              >
+
+              💻 java | 💾 sql | ☁️ aws | ⛓️ blockchain | 🌐 iot
+
+              >
+        
+        buttons:
+            #- name: Blog
+            #  url: posts
+            - name: About
+              url: about
+            - name: Work
+              url: work
+            - name: Education
+              url: other  
+            - name: Other
+              url: other
+            - name: Personal
+              url: other
+            - name: CV (en)
+              url: https://www.dropbox.com/s/6vdimnmsxj4t9cj/Artur_Iablokov_Lebenslauf_de_v20220223.pdf?dl=0           
+            - name: CV (de)
+              url: https://www.dropbox.com/s/6vdimnmsxj4t9cj/Artur_Iablokov_Lebenslauf_de_v20220223.pdf?dl=0          
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/artyapple"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/artur-iablokov-b06ab74b"
+        - name: telegram
+          url: "https://t.me/artyapple"
+
+    #editPost:
+    #    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    #    Text: "Suggest Changes" # edit text
+    #    appendFilePath: true # to append file path to Edit link
+
+    label:
+         text: ".A"
+         icon: img/ai_fav_transparent_dark.png
+         icondark: img/ai_fav_transparent.png
+         iconHeight: 40
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    # favicons placed under static, conf not needed
+    #assets:
+    #    disableHLJS: true
+    #    favicon: "img/favicon/favicon.ico"
+    #    favicon16x16: "img/favicon/favicon-16x16.png"
+    #    favicon32x32: "img/favicon/favicon-32x32.png"
+    #    apple_touch_icon: "img/favicon/apple-touch-icon.png"
+    #    safari_pinned_tab: "img/favicon/safari-pinned-tab.svg"
+
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
+
+#copyright: "Artur Iablokov."        
