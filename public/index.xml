@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ai</title>
+    <title>Artur Iablokov</title>
     <link>/</link>
-    <description>Recent content on ai</description>
+    <description>Recent content on Artur Iablokov</description>
     <image>
       <url>/papermod-cover.png</url>
       <link>/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2022 Artur Iablokov. Images are generated with DALL·E 2(https://openai.com/dall-e-2/)</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Other</title>
+      <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Various projects that helped me learn something new.</description>
+      <description>I am a software developer with 8 years of development experience in payment services and energy monitoring systems. My curiosity and passion for information technologies drives me to learn new and try it outside of work hours. I’m looking forward to continued involvement in projects with ambitions, wide tech stacks, and a friendly team.</description>
     </item>
     
     <item>
-      <title>Other</title>
+      <title>Education</title>
       <link>/edu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/edu/</guid>
-      <description>Hugo, the world&amp;#39;s fastest framework for building websites</description>
+      <description>University In 2019, I graduated from the University of Applied Science Hamburg with a degree in computer science. I was lucky enough to join Prof. Becke&amp;rsquo;s group of students who specialized in distributed systems. Under Professor Becke guidance, I completed my graduate thesis on &amp;ldquo;Analysis of a blockchain-based IoT infrastructure with Ethereum and Swarm&amp;rdquo;.
+Herzlichen Glückwunsch an Artur I. für seine erfolgreiche Verteidigung. Seine BA Arbeit im Kontext von #Blockchains hat uns in unserer Arbeit weitergebracht.</description>
     </item>
     
     <item>
@@ -38,12 +38,21 @@
     </item>
     
     <item>
+      <title>Personal</title>
+      <link>/personal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/</guid>
+      <description>Thanks to the volatile weather in Hamburg, I enjoy traveling a lot. I am a big fan of water sports, historical books and podcasts. I always enjoy going to a music concert or a soccer match.</description>
+    </item>
+    
+    <item>
       <title>Work</title>
       <link>/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/</guid>
-      <description>A few words about my current and past work can be found here.</description>
+      <description>A few words about my current and previous work.</description>
     </item>
     
   </channel>

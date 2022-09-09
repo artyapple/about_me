@@ -1,9 +1,9 @@
 +++
 title = "Work"
-description = "A few words about my current and past work can be found here."
+description = "A few words about my current and previous work."
 +++
-
-<h3>DPS – IT for finance and retail</h3>
+![work](images/work.png)
+## DPS – IT for finance and retail
 
 _2018 - present time, Hamburg, Germany_
 
@@ -34,7 +34,7 @@ instant payment processing. Focus on liquidity management systems.
 **Tech-Stack:**
 Java, Java EE, Oracle Enterprise, Active MQ, JBoss, Git, Jenkins, Docker, Kubernetes
 
-<h3>Envidatec GmbH</h3>
+## Envidatec GmbH
 
 _2014 - 2018, Hamburg, Germany_
 

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on ai</title>
+    <title>Tags on Artur Iablokov</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on ai</description>
+    <description>Recent content in Tags on Artur Iablokov</description>
     <image>
       <url>/papermod-cover.png</url>
       <link>/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>© 2022 Artur Iablokov. Images are generated with DALL·E 2(https://openai.com/dall-e-2/)</copyright><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -31,7 +31,17 @@ languages:
             main:
                 - name: About
                   url: about/  
-                  weight: 10
+                  weight: 1
+                - name: Work
+                  url: work/  
+                  weight: 2
+                - name: Other
+                  url: other/  
+                  weight: 3
+                - name: Personal
+                  url: personal/  
+                  weight: 4
+
 
 
 outputs:
@@ -42,9 +52,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: hello
-    description: Artur Iablokov - Software Developer based in Hamburg
-    author: artyapple
+    description: Personal webpage - Artur Iablokov - Software Developer based in Hamburg
+    #author: artyapple
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: dark
@@ -70,13 +79,7 @@ params:
         imageHeight: 180
         subtitle: |
               Software Developer based in Hamburg, Germany
-              
-              >
-
-              💻 java | 💾 sql | ☁️ aws | ⛓️ blockchain | 🌐 iot
-
-              >
-        
+        #💻 java | 💾 sql | ☁️ aws | ⛓️ blockchain | 🌐 iot
         buttons:
             #- name: Blog
             #  url: posts
@@ -85,11 +88,11 @@ params:
             - name: Work
               url: work
             - name: Education
-              url: other  
+              url: edu
             - name: Other
               url: other
             - name: Personal
-              url: other
+              url: personal
             - name: CV (en)
               url: https://www.dropbox.com/s/6vdimnmsxj4t9cj/Artur_Iablokov_Lebenslauf_de_v20220223.pdf?dl=0           
             - name: CV (de)
