@@ -1,11 +1,11 @@
 +++
-title = "Work"
-description = "A few words about my current and previous work."
+title = "Career"
+description = "A few words about my work experience."
 +++
 ![work](images/work.png)
 ## DPS – IT for finance and retail
 
-_2018 - present time, Hamburg, Germany_
+_2018 - present, Hamburg, Germany_
 
 Development of European wide leading system in the area of payment transactions
 
@@ -21,15 +21,10 @@ Project topics: Domestic and foreign payment transactions, Instant Payments, Cle
 - Development, refactoring, maintenance, optimization under existing legacy structures 
 - Effort estimation of topics and projects
 
-
 **Dev topic examples:**
-- GTVO (Geldtransferverordnung) validation with the help of which payment service providers can determine
-the absence or incompleteness of the ordering party and the beneficiary information (anti-money
-laundering).
-- SWIFT-MX migration. Migration of the largest and oldest payment format from string-based implementation
-to xml base. Creation of backward compatibility.
-- Integration of TARGET Instant Payment Settlement (provided by European Central Bank) into existing
-instant payment processing. Focus on liquidity management systems.
+- Integration of TARGET Instant Payment Settlement (provided by European Central Bank) into existing instant payment processing. Focus on liquidity management. Integration with [Continuous gross settlement](https://www.ebaclearing.eu/services/step2-t-system/settlement/) REST API.
+- GTVO (Geldtransferverordnung) validation that helps payment service providers to determine absence or incompleteness of ordering party and beneficiary information (anti-money laundering).
+- [SWIFT-MX migration](https://www.swift.com/standards/iso-20022/iso-20022-programme). Migration of the largest and oldest payment format from string-based implementation to xml base. Creation of backward compatibility.
 
 **Tech-Stack:**
 Java, Java EE, Oracle Enterprise, Active MQ, JBoss, Git, Jenkins, Docker, Kubernetes

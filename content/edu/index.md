@@ -6,7 +6,7 @@ title = "Education"
 
 ![regular](images/uni.png)
 
-In 2019, I graduated from the [University of Applied Science Hamburg](https://www.haw-hamburg.de/en/) with a degree in computer science. I was lucky enough to join Prof. Becke's group of students who specialized in distributed systems. Under Professor Becke guidance, I completed my graduate thesis on "Analysis of a blockchain-based IoT infrastructure with Ethereum and Swarm".
+I graduated from the [University of Applied Science Hamburg](https://www.haw-hamburg.de/en/) with a bachelor degree in computer science in 2019. I consider myself lucky to join Prof. Becke’s group of students who specialized in distributed systems. Under Professor Becke guidance, I wrote my graduate thesis on “Analysis of a blockchain-based IoT infrastructure with Ethereum and Swarm”.
 
 {{< twitter_simple 1164804305964023808 >}}
 

@@ -1,19 +1,19 @@
 +++
-title = "Other"
-description = "Various projects that helped me learn something new."
+title = "Projects"
+description = "Projects and hackathons i have participated in."
 +++
 
 ## Mobility Hackathon 2018
 
 ![regular](images/hackathon_2018.jpg)
 
-One of the last hackathons so far. There we came in as an experienced team and gave away one of the best projects. We have created an app for planning day trips around Hamburg using public transportation. Unfortunately the repository is private, but you can see the presentation below.  
+My most recent hackathon. I participated with the team of professional and experienced developers to present an app for planning guided tours in Hamburg using public transportation. Unfortunately, the repository is private but you can check project presentation and video below. 
 
 [presentation](files/tripassisto.pdf)
 
 ## Design the Smart Mobility – ITS Hackathon Hamburg
 
-This hackathon was organized by Deutsche Bahn (the national railway company of Germany). At that time, the messenger Telegram was rapidly gaining an audience and around the same time introduced a convenient api for chat bots. For ITS hackathon, we decided to implement a companion bot. First of all, routing was implemented through integration with db-api. After that, we implemented various additional functionality, such as notification service about breaks or incidents on the train through the same bot, and a couple of entertainment functions.
+The following hackathon was organized by Deutsche Bahn (the national railway company of Germany). During this time, Telegram messenger was rapidly growing and introduced a convenient API for chat bots. As a result we decided to develop a companion bot for DB customers. Routing was implemented by integration with DB-API. Afterwards, we implemented additional functionality such as break and incident notifications on DB trains, and a couple of entertainment features.
 
 [GitHub](https://github.com/artyapple/dbhero)
 
@@ -21,7 +21,7 @@ This hackathon was organized by Deutsche Bahn (the national railway company of G
 
 ## Mobility Hackathon 2017
 
-My first hackathon, was organized by Hamburg public transport company (HVV). Our team tried to make a prototype for underground navigating without the Internet connection. We used bluetooth beacons for spatial orientation and implemented an simple app for interaction with the user.
+The first hackathon i participated in was organized by Hamburg public transport company (HVV). Our team tried to make a prototype for underground navigating without Internet connection. We used Bluetooth beacons for spatial orientation and presented an easy to use app for interaction with the users.
 
 [GitHub](https://github.com/artyapple/Indoor_navigation)
 

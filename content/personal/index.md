@@ -2,4 +2,4 @@
 title = "Personal"
 +++
 ![personal](images/pers.png)
-Thanks to the volatile weather in Hamburg, I enjoy traveling a lot. I am a big fan of water sports, historical books and podcasts. I always enjoy going to a music concert or a soccer match.
+Due to changing weather conditions in Hamburg, I enjoy traveling. I am keen on water sports, historical books, and podcasts. In my free time i enjoy going to music concert and football matches.

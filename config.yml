@@ -32,15 +32,12 @@ languages:
                 - name: About
                   url: about/  
                   weight: 1
-                - name: Work
+                - name: Career
                   url: work/  
                   weight: 2
-                - name: Other
-                  url: other/  
+                - name: Education
+                  url: edu/  
                   weight: 3
-                - name: Personal
-                  url: personal/  
-                  weight: 4
 
 
 
@@ -78,25 +75,25 @@ params:
         imageWidth: 180
         imageHeight: 180
         subtitle: |
-              Software Developer based in Hamburg, Germany
+              Diligent Software Developer based in Hamburg, Germany
         #💻 java | 💾 sql | ☁️ aws | ⛓️ blockchain | 🌐 iot
         buttons:
             #- name: Blog
             #  url: posts
             - name: About
               url: about
-            - name: Work
+            - name: Career
               url: work
             - name: Education
               url: edu
-            - name: Other
+            - name: Projects
               url: other
-            - name: Personal
+            - name: Hobbies
               url: personal
-            - name: CV (en)
-              url: https://www.dropbox.com/s/6vdimnmsxj4t9cj/Artur_Iablokov_Lebenslauf_de_v20220223.pdf?dl=0           
+            #- name: CV (en)
+            #  url: https://www.dropbox.com/s/6vdimnmsxj4t9cj/Artur_Iablokov_Lebenslauf_de_v20220223.pdf?dl=0           
             - name: CV (de)
-              url: https://www.dropbox.com/s/6vdimnmsxj4t9cj/Artur_Iablokov_Lebenslauf_de_v20220223.pdf?dl=0          
+              url: https://www.dropbox.com/s/4ybek6gmi3qrmfu/Artur_Iablokov_Lebenslauf_de_v20220910.pdf?dl=0          
 
     socialIcons:
         - name: github
