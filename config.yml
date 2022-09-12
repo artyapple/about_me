@@ -32,12 +32,12 @@ languages:
                 - name: About
                   url: about/ 
                   weight: 1
-                - name: Career
-                  url: career/
-                  weight: 2
-                - name: Education
-                  url: edu/  
-                  weight: 3
+                #- name: Career
+                #  url: career/
+                #  weight: 2
+                #- name: Education
+                #  url: edu/  
+                #  weight: 3
 
 
 
@@ -60,10 +60,10 @@ params:
     # disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
-    ShowToc: true
+    ShowToc: false
     # comments: false
     images: ["papermod-cover.png"]
 
@@ -80,8 +80,8 @@ params:
         buttons:
             #- name: Blog
             #  url: posts
-            - name: About
-              url: about/
+            #- name: About
+            #  url: about/
             - name: Career
               url: career/
             - name: Education

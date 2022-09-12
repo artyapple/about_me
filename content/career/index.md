@@ -1,6 +1,5 @@
 +++
 title = "Career"
-description = "A few words about my work experience."
 +++
 ![work](images/work.png)
 ## DPS – IT for finance and retail

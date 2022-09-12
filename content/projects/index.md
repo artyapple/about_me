@@ -1,7 +1,7 @@
 +++
 title = "Projects"
-description = "Projects and hackathons i have participated in."
 +++
+Projects and hackathons i have participated in.
 
 ## Mobility Hackathon 2018
 
