@@ -2,7 +2,7 @@ baseURL: "/" # if your site is in 'https', then make sure your base url isn't wr
 title: Artur Iablokov #empty
 paginate: 5
 theme: PaperMod
-#uglyURLs: true
+uglyURLs: false
 #relativeURLs: true
 
 
@@ -30,10 +30,10 @@ languages:
         menu:
             main:
                 - name: About
-                  url: about/  
+                  url: about/ 
                   weight: 1
                 - name: Career
-                  url: work/  
+                  url: career/
                   weight: 2
                 - name: Education
                   url: edu/  
@@ -81,15 +81,15 @@ params:
             #- name: Blog
             #  url: posts
             - name: About
-              url: about
+              url: about/
             - name: Career
-              url: work
+              url: career/
             - name: Education
-              url: edu
+              url: edu/
             - name: Projects
-              url: other
+              url: projects/
             - name: Hobbies
-              url: personal
+              url: personal/
             #- name: CV (en)
             #  url: https://www.dropbox.com/s/6vdimnmsxj4t9cj/Artur_Iablokov_Lebenslauf_de_v20220223.pdf?dl=0           
             - name: CV (de)
