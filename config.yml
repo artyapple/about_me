@@ -54,7 +54,7 @@ params:
     # author: ["Me", "You"] # multiple authors
     # mainSections:
 
-    defaultTheme: dark
+    defaultTheme: light
     disableThemeToggle: false
     #ShowShareButtons: true
     #ShowReadingTime: true
