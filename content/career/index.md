@@ -1,16 +1,20 @@
 +++
 title = "Career"
+weight = 2
 +++
-![work](images/work.png)
-## DPS – IT for finance and retail
+![work](images/work.jpg)
+## DPS - IT for Finance, Retail & Public Sector
+
+<h3>Software Developer</h3>
 
 _2018 - present, Hamburg, Germany_
 
 Development of European wide leading system in the area of payment transactions
 
-\>100 Mio. transactions 24/7 | High Load Backend | >25 big clients (banks)
+`>100 Mio. transactions 24/7`  `High Load Backend`  `>25 big clients (banks)`
 
-Project topics: Domestic and foreign payment transactions, Instant Payments, Clearing & Settlement, Backoffice, SWIFT, SEPA, MX-Migration, Reporting, etc.
+**Project topics:**
+Domestic and foreign payment transactions, Instant Payments, Clearing & Settlement, Backoffice, SWIFT, SEPA, MX-Migration, Reporting, etc.
 
 **Responsibilities:** 
 - Customer-oriented backend development under time pressure 
@@ -30,12 +34,18 @@ Java, Java EE, Oracle Enterprise, Active MQ, JBoss, Git, Jenkins, Docker, Kubern
 
 ## Envidatec GmbH
 
+<h3>Software Engineer</h3>
+
 _2014 - 2018, Hamburg, Germany_
 
-Development of energy monitoring software 
+Development of My-JEVis energy monitoring software, which makes it easy and cost-effective to keep track of consumption, production data and costs. 
 
+**Responsibilities:** 
 - Backend & frontend development in a small agile team
 - Maintenance, Deployment, Testing
 - Customer data analysis
 - Setup of measurement equipment, data collectors and other hardware
+
+**Tech-Stack:**
+Java, MySQL, Angular
 

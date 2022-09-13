@@ -1,7 +1,8 @@
 +++
 title = "Education"
+weight = 3
 +++
-![regular](images/uni.png)
+![regular](images/uni.jpg)
 ## University
 
 I graduated from the [University of Applied Science Hamburg](https://www.haw-hamburg.de/en/) with a bachelor degree in computer science in 2019. I consider myself lucky to join Prof. Becke’s group of students who specialized in distributed systems. Under Professor Becke guidance, I wrote my graduate thesis on “Analysis of a blockchain-based IoT infrastructure with Ethereum and Swarm”.
@@ -10,7 +11,7 @@ I graduated from the [University of Applied Science Hamburg](https://www.haw-ham
 
 During the study, the IoT devices were configured as blockchain nodes and integrated into a common private Ethereum network. In the respective architectures, a Swarm Peer-to-Peer network was used as the data storage and Smart Contract was provided to enable interaction with the blockchain. The system was exposed to a linearly increasing data load within 36 hours.
 
-![ba-arch](images/ba_software_arch.png)
+![ba-arch](images/ba_software_arch.jpg)
 
 The final thesis can be found [here](https://reposit.haw-hamburg.de/handle/20.500.12738/9127).
 

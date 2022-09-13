@@ -23,10 +23,10 @@ languages:
     en:
         languageName: "eng"
         weight: 1
-        taxonomies:
-          category: categories
-          tag: tags
-          series: series
+        #taxonomies:
+        #  category: categories
+        #  tag: tags
+        #  series: series
         menu:
             main:
                 - name: About
@@ -52,12 +52,13 @@ params:
     description: Personal webpage - Artur Iablokov - Software Developer based in Hamburg
     #author: artyapple
     # author: ["Me", "You"] # multiple authors
+    # mainSections:
 
     defaultTheme: dark
     disableThemeToggle: false
     #ShowShareButtons: true
     #ShowReadingTime: true
-    # disableSpecial1stPost: true
+    #disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: false
@@ -65,7 +66,7 @@ params:
     ShowRssButtonInSectionTermList: true
     ShowToc: false
     # comments: false
-    images: ["papermod-cover.png"]
+    # images: ["papermod-cover.png"]
 
     profileMode:
         enabled: true
@@ -79,7 +80,7 @@ params:
         #💻 java | 💾 sql | ☁️ aws | ⛓️ blockchain | 🌐 iot
         buttons:
             #- name: Blog
-            #  url: posts
+            #  url: a
             #- name: About
             #  url: about/
             - name: Career
@@ -89,11 +90,11 @@ params:
             - name: Projects
               url: projects/
             - name: Hobbies
-              url: personal/
+              url: hobbies/
             #- name: CV (en)
             #  url: https://www.dropbox.com/s/6vdimnmsxj4t9cj/Artur_Iablokov_Lebenslauf_de_v20220223.pdf?dl=0           
             - name: CV (de)
-              url: https://www.dropbox.com/s/4ybek6gmi3qrmfu/Artur_Iablokov_Lebenslauf_de_v20220910.pdf?dl=0          
+              url: https://s3.eu-central-1.amazonaws.com/iablokov.share/public/Artur_Iablokov_Lebenslauf_de_v20220910.pdf          
 
     socialIcons:
         - name: github
@@ -109,7 +110,7 @@ params:
     #    appendFilePath: true # to append file path to Edit link
 
     label:
-         text: ".A"
+         text: "Home"
          icon: img/ai_fav_transparent_dark.png
          icondark: img/ai_fav_transparent.png
          iconHeight: 40
