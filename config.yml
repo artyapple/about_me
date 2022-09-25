@@ -91,10 +91,9 @@ params:
               url: projects/
             - name: Hobbies
               url: hobbies/
-            #- name: CV (en)
-            #  url: https://www.dropbox.com/s/6vdimnmsxj4t9cj/Artur_Iablokov_Lebenslauf_de_v20220223.pdf?dl=0           
+            #- name: CV (en)           
             - name: CV (de)
-              url: https://s3.eu-central-1.amazonaws.com/iablokov.share/public/Artur_Iablokov_Lebenslauf_de_v20220910.pdf          
+              url: Artur_Iablokov_Lebenslauf_de_v20220910.pdf          
 
     socialIcons:
         - name: github

@@ -10,7 +10,7 @@ Projects and hackathons i have participated in.
 
 My most recent hackathon. I participated with the team of professional and experienced developers to present an app for planning guided tours in Hamburg using public transportation. Unfortunately, the repository is private but you can check project presentation and video below. 
 
-[presentation](https://s3.eu-central-1.amazonaws.com/iablokov.share/public/tripassisto.pdf)
+[presentation](files/tripassisto.pdf)
 
 ![hackathon2018_db](images/hackathon_2018_db.jpg)
 
