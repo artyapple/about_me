@@ -30,20 +30,18 @@
 </noscript><meta property="og:title" content="Categories" />
 <meta property="og:description" content="Personal webpage - Artur Iablokov - Software Developer based in Hamburg" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/categories/" /><meta property="og:image" content="/papermod-cover.png"/>
+<meta property="og:url" content="/categories/" />
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/papermod-cover.png"/>
-
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Categories"/>
 <meta name="twitter:description" content="Personal webpage - Artur Iablokov - Software Developer based in Hamburg"/>
 
 </head>
 
-<body class="list dark" id="top">
+<body class="list" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark');
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
     }
 
 </script>
@@ -91,15 +89,15 @@
 
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
-        document.getElementById("logopic_dark").style="display: none;"
-        document.getElementById("logopic").style="";
+        document.getElementById("logopic").style="display: none;"
+        document.getElementById("logopic_dark").style="";
     }
 
 </script>
 <script>
     if (localStorage.getItem("pref-theme") === "light") {
-        document.getElementById("logopic").style="display: none;"
-        document.getElementById("logopic_dark").style="";
+        document.getElementById("logopic_dark").style="display: none;"
+        document.getElementById("logopic").style="";
     }
 
 </script>
@@ -174,14 +172,14 @@
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
-            document.getElementById("logopic").style="display: none;"
-            document.getElementById("logopic_dark").style="";
+            document.getElementById("logopic_dark").style="display: none;"
+            document.getElementById("logopic").style="";
             
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
-            document.getElementById("logopic_dark").style="display: none;"
-            document.getElementById("logopic").style="";
+            document.getElementById("logopic").style="display: none;"
+            document.getElementById("logopic_dark").style="";
         }
     })
 

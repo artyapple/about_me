@@ -93,7 +93,7 @@ params:
               url: hobbies/
             #- name: CV (en)           
             - name: CV (de)
-              url: Artur_Iablokov_Lebenslauf_de_v20220910.pdf          
+              url: Artur_Iablokov_Lebenslauf_de.pdf          
 
     socialIcons:
         - name: github

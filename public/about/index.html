@@ -31,13 +31,11 @@
 </noscript><meta property="og:title" content="About" />
 <meta property="og:description" content="I am a software developer with 8 years of experience in payment services and energy monitoring systems. My curiosity and passion for information technologies drives me to experiment and apply my knowledge out of working hours. I look forward to continued involvement in projects with ambitions, wide tech stacks, and a friendly team." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/about/" /><meta property="og:image" content="/papermod-cover.png"/><meta property="article:section" content="" />
+<meta property="og:url" content="/about/" /><meta property="article:section" content="" />
 
 
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/papermod-cover.png"/>
-
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="About"/>
 <meta name="twitter:description" content="I am a software developer with 8 years of experience in payment services and energy monitoring systems. My curiosity and passion for information technologies drives me to experiment and apply my knowledge out of working hours. I look forward to continued involvement in projects with ambitions, wide tech stacks, and a friendly team."/>
 
@@ -87,10 +85,10 @@
 </script>
 </head>
 
-<body class=" dark" id="top">
+<body class="" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark');
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
     }
 
 </script>
@@ -138,15 +136,15 @@
 
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
-        document.getElementById("logopic_dark").style="display: none;"
-        document.getElementById("logopic").style="";
+        document.getElementById("logopic").style="display: none;"
+        document.getElementById("logopic_dark").style="";
     }
 
 </script>
 <script>
     if (localStorage.getItem("pref-theme") === "light") {
-        document.getElementById("logopic").style="display: none;"
-        document.getElementById("logopic_dark").style="";
+        document.getElementById("logopic_dark").style="display: none;"
+        document.getElementById("logopic").style="";
     }
 
 </script>
@@ -172,6 +170,18 @@ I am a software developer with 8 years of experience in payment services and ene
   <footer class="post-footer">
     <ul class="post-tags">
     </ul>
+<nav class="paginav">
+  <a class="prev" href="/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Home</span>
+  </a>
+  <a class="next" href="/career/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Career</span>
+  </a>
+</nav>
 
   </footer>
 </article>
@@ -239,14 +249,14 @@ I am a software developer with 8 years of experience in payment services and ene
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
-            document.getElementById("logopic").style="display: none;"
-            document.getElementById("logopic_dark").style="";
+            document.getElementById("logopic_dark").style="display: none;"
+            document.getElementById("logopic").style="";
             
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
-            document.getElementById("logopic_dark").style="display: none;"
-            document.getElementById("logopic").style="";
+            document.getElementById("logopic").style="display: none;"
+            document.getElementById("logopic_dark").style="";
         }
     })
 

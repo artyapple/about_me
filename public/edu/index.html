@@ -33,13 +33,11 @@ Herzlichen Glückwunsch an Artur I. für seine erfolgreiche Verteidigung. Seine 
 <meta property="og:description" content="University I graduated from the University of Applied Science Hamburg with a bachelor degree in computer science in 2019. I consider myself lucky to join Prof. Becke’s group of students who specialized in distributed systems. Under Professor Becke guidance, I wrote my graduate thesis on “Analysis of a blockchain-based IoT infrastructure with Ethereum and Swarm”.
 Herzlichen Glückwunsch an Artur I. für seine erfolgreiche Verteidigung. Seine BA Arbeit im Kontext von #Blockchains hat uns in unserer Arbeit weitergebracht." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/edu/" /><meta property="og:image" content="/papermod-cover.png"/><meta property="article:section" content="" />
+<meta property="og:url" content="/edu/" /><meta property="article:section" content="" />
 
 
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/papermod-cover.png"/>
-
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Education"/>
 <meta name="twitter:description" content="University I graduated from the University of Applied Science Hamburg with a bachelor degree in computer science in 2019. I consider myself lucky to join Prof. Becke’s group of students who specialized in distributed systems. Under Professor Becke guidance, I wrote my graduate thesis on “Analysis of a blockchain-based IoT infrastructure with Ethereum and Swarm”.
 Herzlichen Glückwunsch an Artur I. für seine erfolgreiche Verteidigung. Seine BA Arbeit im Kontext von #Blockchains hat uns in unserer Arbeit weitergebracht."/>
@@ -90,10 +88,10 @@ Herzlichen Glückwunsch an Artur I. für seine erfolgreiche Verteidigung. Seine 
 </script>
 </head>
 
-<body class=" dark" id="top">
+<body class="" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark');
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
     }
 
 </script>
@@ -141,15 +139,15 @@ Herzlichen Glückwunsch an Artur I. für seine erfolgreiche Verteidigung. Seine 
 
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
-        document.getElementById("logopic_dark").style="display: none;"
-        document.getElementById("logopic").style="";
+        document.getElementById("logopic").style="display: none;"
+        document.getElementById("logopic_dark").style="";
     }
 
 </script>
 <script>
     if (localStorage.getItem("pref-theme") === "light") {
-        document.getElementById("logopic").style="display: none;"
-        document.getElementById("logopic_dark").style="";
+        document.getElementById("logopic_dark").style="display: none;"
+        document.getElementById("logopic").style="";
     }
 
 </script>
@@ -196,6 +194,18 @@ ID: <a href="https://www.udemy.com/certificate/UC-3d1f5088-e87b-4102-8e59-b39df9
   <footer class="post-footer">
     <ul class="post-tags">
     </ul>
+<nav class="paginav">
+  <a class="prev" href="/career/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Career</span>
+  </a>
+  <a class="next" href="/projects/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Projects</span>
+  </a>
+</nav>
 
   </footer>
 </article>
@@ -263,14 +273,14 @@ ID: <a href="https://www.udemy.com/certificate/UC-3d1f5088-e87b-4102-8e59-b39df9
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
-            document.getElementById("logopic").style="display: none;"
-            document.getElementById("logopic_dark").style="";
+            document.getElementById("logopic_dark").style="display: none;"
+            document.getElementById("logopic").style="";
             
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
-            document.getElementById("logopic_dark").style="display: none;"
-            document.getElementById("logopic").style="";
+            document.getElementById("logopic").style="display: none;"
+            document.getElementById("logopic_dark").style="";
         }
     })
 

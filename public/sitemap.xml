@@ -4,17 +4,17 @@
   <url>
     <loc>/about/</loc>
   </url><url>
-    <loc>/</loc>
-  </url><url>
     <loc>/career/</loc>
-  </url><url>
-    <loc>/categories/</loc>
   </url><url>
     <loc>/edu/</loc>
   </url><url>
-    <loc>/personal/</loc>
-  </url><url>
     <loc>/projects/</loc>
+  </url><url>
+    <loc>/hobbies/</loc>
+  </url><url>
+    <loc>/</loc>
+  </url><url>
+    <loc>/categories/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url>
