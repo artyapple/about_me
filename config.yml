@@ -67,6 +67,8 @@ params:
     ShowToc: false
     # comments: false
     # images: ["papermod-cover.png"]
+    mainSections:
+      - pexon
 
     profileMode:
         enabled: true

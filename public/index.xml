@@ -59,5 +59,23 @@ Design the Smart Mobility – ITS Hackathon Hamburg The following hackathon was 
       <description>Due to changing weather conditions in Hamburg, I enjoy traveling. I am keen on water sports, historical books, and podcasts. In my free time I enjoy going to music concerts and football matches.</description>
     </item>
     
+    <item>
+      <title>About me</title>
+      <link>/pexon/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pexon/about/</guid>
+      <description>Specially prepared for Pexon Consulting</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/pexon/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pexon/projects/</guid>
+      <description>Specially prepared for Pexon Consulting</description>
+    </item>
+    
   </channel>
 </rss>
