@@ -32,12 +32,6 @@ jobs:
           --delete \
           --acl public-read \
           . s3://www.iablokov.dev
-    - name: Deploy extras files
-      run: |
-        cd extra
-        aws s3 sync \
-          --acl public-read \
-          . s3://www.jeromedecoster.net
     - name: Cloudfront invalidation
       run: |
         aws cloudfront create-invalidation \
