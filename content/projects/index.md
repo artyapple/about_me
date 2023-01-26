@@ -2,7 +2,42 @@
 title = "Projects"
 weight = 4
 +++
-Projects and hackathons i have participated in.
+Work and pet projects & hackathons i have participated in.
+
+![website](images/clearing.png)
+
+## Integration of Continuous Gross Settlement
+
+**Context:**
+- critical service - part of Clearing and Settlement 
+- existing legacy structures
+- fault tolerance and latency
+
+**Work done:**
+- new service design and architecture 
+- development of new Rest client (java, resteasy)
+- business logic development / integration in existing structures (java / oracle db) 
+- development of stub server (nodejs, swagger)
+- devops (docker)
+
+**Result:** working successfully in production since July 2022
+
+![website](images/web.jpg)
+
+## Personal website - iablokov.dev
+
+**Context / goals:**
+- stylish, repsonsive and fast website about me
+- create a show case for presentations
+- cloud-only solution (AWS)
+
+**Work done:**
+- static website development + content (hugo, open-ai) 
+- .dev domain issue solved: (google to amazon, AWS Route53)
+- https: Certificate Manager (ACM) + CloudFront 
+- hosting: S3
+
+**Result:** live since October 2022
 
 ![hackathon2018_hvv](images/hackathon_2018_hvv.jpg)
 

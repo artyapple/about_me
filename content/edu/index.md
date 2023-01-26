@@ -17,6 +17,11 @@ The final thesis can be found [here](https://reposit.haw-hamburg.de/handle/20.50
 
 ## Certificates & Courses
 
+- **AWS Certified Cloud Practitioner**
+<br/>
+_Amazon Web Services Training and Certification, 2022_<br/>
+ID: [M2B116D262Q11X54](https://www.credly.com/badges/40fba880-de13-489d-9936-c88cbd59e2d0/)
+
 - **React Native - The Practical Guide**
 <br/>
 _Udemy, 2022_<br/>

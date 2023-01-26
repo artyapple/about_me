@@ -16,8 +16,8 @@ summary = "Projects presentation"
 - new service design and architecture 
 - development of new REST client (java, resteasy)
 - business logic development / integration in existing structures (java / oracle db) 
-- development of test server (nodejs, swagger)
-- devops (docker, k8s)
+- development of stub server (nodejs, swagger)
+- devops (docker)
 
 **Result:** working successfully in production since July 2022
 
@@ -49,7 +49,7 @@ summary = "Projects presentation"
 **Context / goals:**
 - stylish, repsonsive and fast website about me
 - create a show case for presentations
-- infrastructure is completely in the cloud (aws)
+- cloud-only solution (AWS)
 
 **Work done:**
 - static website development + content (hugo, open-ai) 
