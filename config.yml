@@ -68,7 +68,7 @@ params:
     # comments: false
     # images: ["papermod-cover.png"]
     mainSections:
-      - pexon
+      - intro
 
     profileMode:
         enabled: true
