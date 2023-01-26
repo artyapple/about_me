@@ -23,7 +23,7 @@ jobs:
       uses: peaceiris/actions-hugo@v2
 
     - name: Build with Hugo
-      run: hugo --minify
+      run: hugo
       
     - name: Deploy static site to S3 bucket
       run: |
