@@ -33,6 +33,7 @@ jobs:
         cd public
         aws s3 sync \
           --delete \
+          --exclude "*.pdf" \
           --acl public-read \
           . s3://www.iablokov.dev
     - name: Cloudfront invalidation
