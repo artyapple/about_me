@@ -3,11 +3,17 @@ title = "Career"
 weight = 2
 +++
 ![work](images/work.jpg)
+## Lufthansa Industry Solutions
+
+<h3>Software Engineer for Cloud Native Architectures</h3>
+
+_2023 - present, Hamburg, Germany_
+
 ## DPS - IT for Finance, Retail & Public Sector
 
 <h3>Software Developer</h3>
 
-_2018 - present, Hamburg, Germany_
+_2018 - 2023, Hamburg, Germany_
 
 Development of European wide leading system in the area of payment transactions
 
