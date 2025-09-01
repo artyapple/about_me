@@ -7,7 +7,7 @@ weight = 3
 
 I graduated from the [University of Applied Science Hamburg](https://www.haw-hamburg.de/en/) with a bachelor degree in computer science in 2019. I consider myself lucky to join Prof. Becke’s group of students who specialized in distributed systems. Under Professor Becke guidance, I wrote my graduate thesis on “Analysis of a blockchain-based IoT infrastructure with Ethereum and Swarm”.
 
-{{< twitter_simple 1164804305964023808 >}}
+{{< x user="CADS_HAW" id="1164804305964023808" >}}
 
 During the study, the IoT devices were configured as blockchain nodes and integrated into a common private Ethereum network. In the respective architectures, a Swarm Peer-to-Peer network was used as the data storage and Smart Contract was provided to enable interaction with the blockchain. The system was exposed to a linearly increasing data load within 36 hours.
 
@@ -16,6 +16,11 @@ During the study, the IoT devices were configured as blockchain nodes and integr
 The final thesis can be found [here](https://reposit.haw-hamburg.de/handle/20.500.12738/9127).
 
 ## Certificates & Courses
+
+- **KCNA: Kubernetes and Cloud Native Associate**
+<br/>
+_The Linux Foundation, 2025_<br/>
+ID: [LF-mtji59r1ju](https://www.credly.com/badges/54642bce-6362-4909-b8d0-959afc09f2e4)
 
 - **AWS Certified Cloud Practitioner**
 <br/>

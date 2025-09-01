@@ -9,6 +9,26 @@ weight = 2
 
 _2023 - present, Hamburg, Germany_
 
+**Project #1:**
+[Digital Product Passport Application](https://www.lufthansa-industry-solutions.com/de-en/solutions-products/digital-product-passport): Development of an EU-compliant digital ID for products, components, and materials.
+
+**Responsibilities & Achievements:** 
+- Designing and architecting a scalable greenfield application from scratch based on comprehensive business requirements gathered from various stakeholders. 
+- Agile development of Go microservices (e.g., file storage, data management, admin services). 
+- Task planning and management of a small backend development team. 
+- Deployment of microservices using Docker, Kubernetes, ArgoCD, and GitLab CI. 
+- Implementation and management of authentication (OIDC & ApiKey) and authorization using RedHat SSO. 
+- Implementation of an API gateway with Nginx as the single entry point for our microservices and client applications.
+
+**Project #2:**
+New system for managing and issuing aircraft component certificates (e.g., EASA Form 1, FAA Form 8130-3).
+
+**Responsibilities & Achievements:** 
+- Developed REST APIs with Quarkus, managed specifications via Apicurio, and integrated with OracleDB.
+- Implemented CI/CD with Jenkins and deployed services to Kubernetes using Helm.
+- Integrated with enterprise systems, including SAP processes via OData, internal REST services for component data, and company-wide SSO.
+- Supported multiple certification workflows, ensuring compliance and traceability across the supply chain.
+
 ## DPS - IT for Finance, Retail & Public Sector
 
 <h3>Software Developer</h3>
