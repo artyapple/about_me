@@ -1,6 +1,6 @@
 baseURL: "/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Artur Iablokov #empty
-paginate: 5
+pagination.pagerSize: 5
 theme: PaperMod
 uglyURLs: false
 #relativeURLs: true
@@ -18,28 +18,15 @@ pygmentsUseClasses: true
 minify:
     disableXML: true
     # minifyOutput: true
-
 languages:
-    en:
-        languageName: "eng"
-        weight: 1
-        #taxonomies:
-        #  category: categories
-        #  tag: tags
-        #  series: series
-        menu:
-            main:
-                - name: About
-                  url: about/ 
-                  weight: 1
-                #- name: Career
-                #  url: career/
-                #  weight: 2
-                #- name: Education
-                #  url: edu/  
-                #  weight: 3
-
-
+  en:
+    languageName: "eng"
+    weight: 1
+    menu:
+        main:
+          - name: About
+            url: about/ 
+            weight: 1
 
 outputs:
     home:
@@ -48,7 +35,7 @@ outputs:
         - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    env: production 
     description: Personal webpage - Artur Iablokov - Software Developer based in Hamburg
     #author: artyapple
     # author: ["Me", "You"] # multiple authors
@@ -162,7 +149,7 @@ privacy:
         disabled: false
         simple: true
 
-    twitter:
+    x:
         disabled: false
         enableDNT: true
         simple: true
@@ -178,7 +165,7 @@ privacy:
 services:
     instagram:
         disableInlineCSS: true
-    twitter:
+    x:
         disableInlineCSS: true
 
 #copyright: "Artur Iablokov."        
