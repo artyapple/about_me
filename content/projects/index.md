@@ -9,35 +9,36 @@ Work and pet projects & hackathons i have participated in.
 ## Integration of Continuous Gross Settlement
 
 **Context:**
-- critical service - part of Clearing and Settlement 
-- existing legacy structures
-- fault tolerance and latency
+- Mission-critical service within Clearing and Settlement
+- Built on legacy infrastructure
+- Requires high fault tolerance and low latency
 
 **Work done:**
-- new service design and architecture 
-- development of new Rest client (java, resteasy)
-- business logic development / integration in existing structures (java / oracle db) 
-- development of stub server (nodejs, swagger)
-- devops (docker)
+- Designed and implemented a new service architecture
+- Developed a REST client (Java, Resteasy)
+- Integrated business logic with existing systems (Java / Oracle DB)
+- Built a stub server for testing (Node.js, Swagger)
+- Set up DevOps pipeline and containerization (Docker)
 
-**Result:** working successfully in production since July 2022
+**Result:** In successful production operation since July 2022
 
 ![website](images/web.jpg)
 
 ## Personal website - iablokov.dev
 
 **Context / goals:**
-- stylish, repsonsive and fast website about me
-- create a show case for presentations
-- cloud-only solution (AWS)
+- Create a stylish, responsive, and fast personal website
+- Serve as a showcase for presentations
+- Cloud-only deployment (AWS) with a maximally cost-efficient setup
 
 **Work done:**
-- static website development + content (hugo, open-ai) 
-- .dev domain issue solved: (google to amazon, AWS Route53)
-- https: Certificate Manager (ACM) + CloudFront 
-- hosting: S3
+- Built a static website (Hugo)
+- Resolved .dev domain transfer (Google → Amazon, AWS Route53)
+- Configured HTTPS with AWS Certificate Manager (ACM) + CloudFront
+- Deployed hosting on S3 with a minimal-cost architecture
+- Automated build & deployment pipeline using GitHub Actions
 
-**Result:** live since October 2022
+**Result:** Live and running since October 2022
 
 ![hackathon2018_hvv](images/hackathon_2018_hvv.jpg)
 
