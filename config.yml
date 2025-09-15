@@ -105,9 +105,9 @@ params:
          icondark: img/ai_fav_transparent.png
          iconHeight: 40
 
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
+    analytics:
+        google:
+            SiteVerificationTag: "G-Z7MPRVEYLH"
 
     # favicons placed under static, conf not needed
     #assets:
