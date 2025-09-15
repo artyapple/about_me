@@ -13,7 +13,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+googleAnalytics: G-Z7MPRVEYLH
 
 minify:
     disableXML: true
@@ -107,7 +107,7 @@ params:
 
     analytics:
         google:
-            SiteVerificationTag: "G-Z7MPRVEYLH"
+            SiteVerificationTag: G-Z7MPRVEYLH
 
     # favicons placed under static, conf not needed
     #assets:
